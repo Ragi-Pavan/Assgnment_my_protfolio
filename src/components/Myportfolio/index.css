@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.hr {
+  border: 2px solid #fdc435;
+  width: 80px;
+}
+
+.top-lef-container {
+  width: 100%;
+}
+
+.top-right-container {
+  background-image: url('https://res.cloudinary.com/dytgpb4j5/image/upload/v1704380626/o50pldskjw5vdgkcpqk5.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+
+.heading-name {
+  font-family: Comfortaa;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.navigation_elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.anchor {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dicription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.hello {
+  padding: 10px;
+}
+
+.ui_ux {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fdc435;
+  padding: 0px;
+  margin: 0px;
+}
+
+.l-heading {
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+.short-text {
+  stylename: body/24px;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.project-button {
+  width: 100px;
+  height: 30px;
+  background-color: #fdc435;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.linked-in-button {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.anchor-button {
+  text-decoration: none;
+  color: black;
+}
+
+.img {
+  width: 100%;
+}
+.add-p-heading {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sub-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.label {
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.input {
+  border: 1px solid gray;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color: gray;
+  outline: none;
+}
+
+.text-area {
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 8px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  padding: 10px;
+  color: gray;
+  outline: none;
+}
+
+.submitButton {
+  width: 75px;
+  height: 30px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  align-self: flex-end;
+  margin-top: 10px;
+  background: #fdc435;
+  border: none;
+  cursor: pointer;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+.cop {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #828282;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon-1 {
+  width: 45px;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+.icon-2 {
+  width: 50px;
+  height: 65px;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .hr {
+    border: 2px solid #fdc435;
+    width: 120px;
+  }
+  .icon {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .icon-1 {
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .icon-2 {
+    width: 60px;
+    height: 65px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .submitButton {
+    width: 100px;
+    height: 40px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    align-self: flex-end;
+    margin-top: 10px;
+    background: #fdc435;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .form {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .top-lef-container {
+    width: 50vw;
+  }
+  .heading-name {
+    font-family: Comfortaa;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .top-right-container {
+    background-image: url('https://res.cloudinary.com/dytgpb4j5/image/upload/v1704380626/o50pldskjw5vdgkcpqk5.jpg');
+    width: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+  .dicription {
+    padding: 20px;
+  }
+  .anchor {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .heading-name {
+    font-family: Comfortaa;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    padding-left: 30px;
+    text-align: left;
+  }
+  .add-p-heading {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+}
